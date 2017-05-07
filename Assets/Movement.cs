@@ -26,5 +26,6 @@ public class Movement : MonoBehaviour {
             newPosition.x += SpeedX * Time.deltaTime;
             transform.position = newPosition;
         }
+        
     }
 }
